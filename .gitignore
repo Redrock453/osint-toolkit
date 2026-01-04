@@ -1,0 +1,140 @@
+# OSINT Toolkit - Git Ignore File
+
+# Environment variables (contains API keys)
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# OSINT specific - Scan results and data
+data/results/*
+data/logs/*
+!data/results/.gitkeep
+!data/logs/.gitkeep
+
+# Keep directory structure but ignore contents
+data/spiderfoot/*
+!data/spiderfoot/.gitkeep
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Reports (may contain sensitive info)
+*.report
+*report.*
+*.html
+*.json.bak
+
+# Scan outputs
+*_output.*
+*_results.*
+*_scan.*
+
+# API keys and secrets
+*api_key*
+*secret*
+*.pem
+*.key
+*.crt
+
+# Docker
+docker-compose.override.yml
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Recon-ng
+.recon-ng/
+workspaces/
+
+# SpiderFoot
+.spiderfoot/
+
+# GitLeaks config (if customized)
+.gitleaks.toml
+.gitleaksignore
+
+# Tool-specific
+theHarvester/
+sublist3r/
+masscan/
+nmap/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Compressed results
+*.tar.gz
+*.zip
+*.7z
+
+# Large binary files
+*.pcap
+*.bin
+*.exe
+
+# Search index
+*.idx
+
+# Cache
+.cache/
+*.cache
+
+# Session files
+*.session
+*.rdb

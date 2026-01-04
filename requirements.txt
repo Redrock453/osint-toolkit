@@ -1,0 +1,59 @@
+# OSINT Toolkit - Python Dependencies
+
+# Core Frameworks
+spiderfoot>=4.0.0
+recon-ng>=5.1.0
+theHarvester>=4.5.0
+
+# Web Scraping & HTTP
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+selenium>=4.16.0
+aiohttp>=3.9.0
+httpx>=0.26.0
+
+# Data Processing
+pandas>=2.1.0
+numpy>=1.26.0
+
+# Database
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+redis>=5.0.0
+
+# API Clients
+shodan>=1.31.0
+virustotal3>=0.1.0
+haveibeenpwned>=2.3.0
+
+# Dark Web & Tor
+requests-socks5[socks5]>=1.0.0
+stem>=1.8.0
+
+# Utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0.0
+colorama>=0.4.0
+tqdm>=4.66.0
+click>=8.1.0
+
+# Async & Concurrency
+asyncio>=3.4.3
+concurrent-futures>=3.1.1
+
+# Reporting
+jinja2>=3.1.0
+markdown>=3.5.0
+
+# Security & Cryptography
+cryptography>=41.0.0
+pyotp>=2.9.0
+
+# Logging & Monitoring
+loguru>=0.7.0
+python-json-logger>=2.0.0
+
+# Testing (optional)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
